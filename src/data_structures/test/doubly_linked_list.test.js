@@ -54,6 +54,25 @@ describe(DoublyLinkedList, () => {
     });
   });
 
+  // describe('testing forEach', () => {
+  //   it(`prints out stuff for each element in the list`, () => {
+  //     const numbers = [1, 2, 3];
+  //     numbers.forEach((num, index ) => {
+  //       if(index % 2 == 0) {
+  //         dll.insertHead(num)
+  //       } else {
+  //         dll.insertTail(num)
+  //       }
+  //     })
+  //     // const stuff = fillMixed()
+  //     console.log(`there are ${dll.count()} nodes in the DLL`)
+  //     dll.forEach((node) => {
+  //       console.log(`node's value: ${node.element}`)
+  //     })
+  //     expect(true)
+  //   })
+  // })
+
   describe('removeHead', () => {
     it('yields elements in tail-insertion order', () => {
       const elements = ['linked', 'list', 'elements'];
