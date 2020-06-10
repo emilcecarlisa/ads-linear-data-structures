@@ -1,4 +1,4 @@
-# Linear Data Structures Lab
+# Linear Data Structures Lab 
 
 Ada Developers Academy / Lovelace Learning Labs
 
